@@ -4,7 +4,7 @@
 </audio>
 <div class="controls">
   <button (click)="toggleAudio()">
-    {{ isAudioPlaying ? 'Pause' : 'Play' }} Budio
+    {{ isAudioPlaying ? 'Pause' : 'Play' }} Audio
   </button>
 
   <input type="range" min="0" [max]="audioDuration" [value]="audioProgress" (input)="seekAudio($event)" />
